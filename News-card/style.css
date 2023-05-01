@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+}
+
+body{
+    margin: 0 auto;
+    max-width: 1100px;
+    padding: 20px;
+    background: #dddddd;
+}
+
+.main{
+    display: flex;
+    gap: 20px;
+}
+
+.left-col{  
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex-basis: 100%;
+}
+
+.exp-btn span{
+    border: 1px solid #377d22;
+    border-radius: 30px;
+    height: 45px;
+    background: white;
+    text-transform: uppercase;
+    padding: 5px 10px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    background: #fdf0cc;
+    gap: 30px;
+    border-radius: 0 0 20px 0;
+    padding: 40px;  
+    border-top: 5px solid; 
+    align-items: flex-start;  
+    
+}
+
+.parent3 {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    border-image:   linear-gradient(to right , green 33%, red 33%, red 66%, black 66%, black 80%) 2;
+}
+
+.news{
+    display: flex;
+    gap: 20px;
+}
+
+.parent1{
+    border-image:   linear-gradient(to right , red 33%, white 33%, white 66%, black 66%, black 80%) 2;
+
+}
+
+.parent2{
+    border-image:   linear-gradient(to right , red 33%, white 33%, white 66%, blue 66%, blue 80%) 2;
+
+}
+
+img{
+    width: 200px;
+    filter: grayscale(100%);
+}
+
+
+.wrapper{
+    display: flex;
+    gap: 10px;
+
+}
+
+.right-col{
+    display: flex;
+}
+
+
+.news-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.right-col:hover img{
+    filter: grayscale(0%);
+}
